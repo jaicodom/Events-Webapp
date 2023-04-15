@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient py-3 sticky-top">
+	<div class="container-fluid">
+		
+		
+		
+		<div class="collapse navbar-collapse d-flex"	id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+
+				<a class="nav-link active" aria-current="page" href="/">Home</a>
+				
+				<a class="nav-link"	href="{{ path('music') }}">Music</a>
+				<a class="nav-link"	href="{{ path('opera') }}">Opera</a>
+				<a class="nav-link"	href="{{ path('theater') }}">Theater</a>
+				<a class="nav-link"	href="{{ path('sport') }}">Sport</a>
+				<a class="nav-link"	href="{{ path('movie') }}">Movie</a>
+
+				
+			</div>
+		</div>
+
+		<a class="btn btn-success mx-5" href="{{ path('app_event_new') }}" >Add event</a>
+
+	</div>
+</nav>

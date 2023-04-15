@@ -1,0 +1,10 @@
+{{ form_start(form) }}
+{{ form_widget(form) }}
+<div class="d-flex justify-content-around">
+
+	<a href="{{ path('app_event_index') }}" class="btn btn-secondary my-5">Back to Homepage</a>
+	<button class="btn btn-success my-5">{{ button_label|default('Save') }}</button>
+
+
+</div>
+{{ form_end(form) }}
